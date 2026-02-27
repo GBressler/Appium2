@@ -1,0 +1,38 @@
+# Eclipse IDE
+.classpath
+.project
+.settings/
+.metadata/
+
+# Build Output
+bin/
+target/
+*.class
+
+# Maven
+target/
+
+# Test Output & Reports
+test-output/
+reports/
+screenshots/
+videos/
+logs/
+*.log
+
+# Appium
+appium-server.log
+*.apk
+*.ipa
+*.aab
+
+# Sensitive Config - commit the template, not the real file
+config.properties
+local.properties
+*.env
+secrets/
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
